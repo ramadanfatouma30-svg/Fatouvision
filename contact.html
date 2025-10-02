@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Contact – FatouVision</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+  
+<body>
+  <header class="header">
+    <div class="logo">Fatou<span>Vision</span></div>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Réalisations</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="burger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h2>Nous Contacter</h2>
+    <p>Vous souhaitez un devis, une collaboration, ou tout simplement en savoir plus ? 
+      Remplissez le formulaire ci-dessous ou contactez-moi directement.
+    L'équipe de FatouVision est à votre disposition.</p>
+
+    <!-- WRAPPER FLEX POUR METTRE FORMULAIRE + INFOS COTE À COTE -->
+    <div class="contact-wrapper">
+
+      <!-- FORMULAIRE -->
+        <form class="contact-form">
+        <h2>Formulaire</h2>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Votre adresse email" required />
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
+
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+
+      <!-- INFOS DE CONTACT -->
+      <div class="contact-infos">
+        <h2>Nos contacts</h2>
+        <p><strong>Email :</strong> contact@fatouvision.com</p>
+        <p><strong>Téléphone :</strong> +235 66 00 00 00</p>
+        <p><strong>Réseaux :</strong><br> Facebook | Instagram | TikTok</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 FatouVision. Tous droits réservés.</p>
+    <p>"la référence digitale"</p>
+    
+    <div class="social-links">
+  <a href="https://www.facebook.com/share/1CWzM5qybN/" target="_blank" aria-label="Facebook">
+    <i class="fab fa-facebook fa-lg"></i>
+  </a>
+  <a href="https://instagram.com/agrihaguina" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram fa-lg"></i>
+  </a>
+  <a href="https://tiktok.com/@agrihaguina" target="_blank" aria-label="TikTok">
+    <i class="fab fa-tiktok fa-lg"></i>
+  </a>
+</div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
